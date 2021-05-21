@@ -1,38 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
 .App {
   text-align: center;
+  background-image: url(./images/anime_wallpaper.jpeg);
+  background-size:cover;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+ background-color: black;
+ height: 10vh;
+ box-shadow:10px 0px 10px black;
+ z-index: 1;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  color: orange;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box{
+  border:1px, solid, black;
+  width: 80vw;
+  height: 30vh;
+  background-color: rgb(63, 63, 63);
+  display: flex;
+  justify-content: center;
+  font-size: 40;
+  
+  
+}
+
+.box2{
+  border:1px, solid, black;
+  max-width: 80vw;
+  min-width: 80vw;
+  height: 25vh;
+  background-color: rgb(63, 63, 63);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.searchBox{
+  background-color: rgb(63, 63, 63);
+  height: 60vh;
+  width: 80vw;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  
+}
+
+
+
+.header{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  width: 80vw;
+  justify-self: center;
+  
+}
+
+.textHolder{
+  color: white;
+  font-size: larger;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30vw;
+  padding-right: 15px;
+}
+
+img{
+  box-shadow: 5px 5px 10px black;
+}
+.footer{
+  background-color:black;
+  color: white;
+  font-weight: bold;
+  height: 20vh;
+  width: 80vw;
+  justify-self: center;
+  align-items: center;
+  z-index: 1;
+  box-shadow: -10px 0 10px black;
+}
+
+.outer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  
+}
+.outer1{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: 100vw;
 }
