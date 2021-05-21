@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
   background-image: url(./images/anime_wallpaper.jpeg);
@@ -57,12 +62,20 @@ a{
 
 #greeting{
   color: orange;
-  padding-left: 314px;
-  text-align: right;
+  
+  text-align: center;
+  
   
   justify-content: center;
 }
 
+.header2{
+  background-color:white;
+  height: auto;
+  align-items: center;
+  height: 5vh;
+  margin-top: 10px;
+}
 
 
 .header{
