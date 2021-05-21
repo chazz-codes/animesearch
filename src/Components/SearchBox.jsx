@@ -56,15 +56,15 @@ handleChange = (e) => {this.setState({userInput: e.target.value})}
                 <ExactGif character={this.state.character} gifCall={this.state.gifCall} gifURL={this.state.gifURL}/>
                 <h1>{this.state.quote}</h1>
                 <h3>{this.state.character}</h3>
-                <h3>{this.state.name}</h3>
-                
+                <h3>{this.state.name}</h3> <br/>
+                <div className="form">
                 <form action="" onSubmit={this.handleSubmit}>
                     <input type='text' value={this.state.userInput} onChange={this.handleChange} placeholder="search by character"/>
                     
                    
                     <button type="submit"> Search </button>
                 </form>
-                
+                </div>
             </div>
             </div>
         );

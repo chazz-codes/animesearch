@@ -9,10 +9,12 @@ import Random2 from './Components/Random2';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import SearchAnime from './Components/SearchAnime';
 import AnimeSongs from './Components/AnimeSongs';
+import Greeting from './Components/Greeting';
 
 function App() {
   return (
     <div className="App">
+      <Greeting/>
       <Router>
       <SmartHeader/>
       <Switch>
